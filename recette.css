@@ -1,0 +1,583 @@
+
+.titre-haut {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+
+.titre-haut h2 {
+    font-size: 1.5rem; 
+}
+
+.titre-haut p {
+    font-size: 1.5rem; 
+}
+
+
+.container {
+    background-color: #694567; 
+    padding: 70px;  
+    margin: 50px auto; 
+    width: 100%;
+    max-width: 1000px; 
+    border: 2px solid #333; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7); 
+    text-align: left; 
+    color: #e6e6e6; 
+    font-size: 1.2rem; 
+}
+.containertarte {
+    background-color: #1f1647; 
+    padding: 70px;  
+    margin: 50px auto; 
+    width: 100%;
+    max-width: 1000px;  
+    border: 2px solid #333; 
+    box-shadow: 0 8px 20px rgba(73, 56, 172, 0.7); 
+    text-align: left; 
+    color: #e6e6e6; 
+    font-size: 1.2rem; 
+}
+.containerpoire {
+    background-color: #726706; 
+    padding: 70px;  
+    margin: 50px auto; 
+    width: 100%;
+    max-width: 1000px; 
+    border: 2px solid #bcbe12; 
+    box-shadow: 0 8px 20px rgba(236, 234, 65, 0.808); 
+    text-align: left; 
+    color: #e6e6e6; 
+    font-size: 1.2rem; 
+}
+.containerpomme {
+    background-color: #741010; 
+    padding: 70px;  
+    margin: 50px auto; 
+    width: 100%;
+    max-width: 1000px; 
+    border: 2px solid #b34141; 
+    box-shadow: 0 8px 20px rgba(233, 126, 126, 0.808); 
+    text-align: left; 
+    color: #e6e6e6; 
+    font-size: 1.2rem; 
+}
+.containerchoco {
+    background-color: #361609; 
+    padding: 70px;  
+    margin: 50px auto; 
+    width: 100%;
+    max-width: 1000px; 
+    border: 2px solid #421810; 
+    box-shadow: 0 8px 20px rgba(114, 21, 21, 0.808); 
+    text-align: left; 
+    color: #e6e6e6; 
+    font-size: 1.2rem; 
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center; 
+}
+
+.container3 {
+    margin-top: 20px; 
+    display: flex;
+    justify-content: center; 
+}
+
+
+
+
+.imagea img {
+    width: 200px;  
+    height: 200px; 
+    object-fit: cover; 
+    margin: 10px; 
+}
+
+
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/siteweb/image/fond.jpg') no-repeat center center/cover; 
+    z-index: -1; 
+    filter: blur(8px); 
+    opacity: 0.7; 
+}
+
+.bodyrouge{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/siteweb/image/framboisefond.webp') no-repeat center center/cover; 
+    z-index: -1; 
+    filter: blur(8px); 
+    opacity: 0.7; 
+}
+.bodyfraise{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/siteweb/image/fraisefon.jpg') no-repeat center center/cover; 
+    z-index: -1;
+    filter: blur(8px); 
+    opacity: 0.7; 
+}
+.bodymangue{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/siteweb/image/manguefond.jpg') no-repeat center center/cover; 
+    z-index: -1; 
+    filter: blur(8px); 
+    opacity: 0.7;
+}
+.bodytarte{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/siteweb/image/tartefond.webp') no-repeat center center/cover; 
+    z-index: -1; 
+    filter: blur(8px); 
+    opacity: 0.7;
+}
+.bodypoire{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/siteweb/image/poirefond.jpg') no-repeat center center/cover; 
+    z-index: -1; 
+    filter: blur(8px);
+    opacity: 0.7;
+}
+.bodypomme{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/siteweb/image/pommefond.webp') no-repeat center center/cover; 
+    z-index: -1; 
+    filter: blur(8px); 
+    opacity: 0.7;
+}
+.bodychocolat{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/siteweb/image/chocofond.jpg') no-repeat center center/cover; 
+    z-index: -1;
+    filter: blur(8px); 
+    opacity: 0.7;
+}
+body {
+    background-color: rgb(149, 112, 207); 
+    color: white; 
+    height: 100vh
+}
+.pomme-page table, 
+.pomme-page caption, 
+.pomme-page th, 
+.pomme-page td {
+    border: 2px solid rgb(0, 0, 0); 
+    border-collapse: collapse;
+}
+
+.pomme-page caption, 
+.pomme-page th, 
+.pomme-page td {
+    padding: 8px;
+}
+
+.pomme-page caption {
+    background-color: rgb(78, 11, 11);
+}
+
+.pomme-page th {
+    background-color: rgb(136, 68, 68);
+}
+
+.pomme-page td {
+    background-color: rgb(196, 96, 96);
+}
+
+.pomme-page table, 
+.pomme-page caption, 
+.pomme-page th, 
+.pomme-page td {
+    transition: background-color 0.3s ease;
+}
+
+.pomme-page table tr:hover {
+    background-color: rgba(233, 126, 126, 0.2);
+}
+.choco-page table, 
+.choco-page caption, 
+.choco-page th, 
+.choco-page td {
+    border: 2px solid rgb(0, 0, 0); 
+    border-collapse: collapse;
+}
+
+.choco-page caption, 
+.choco-page th, 
+.choco-page td {
+    padding: 8px;
+}
+
+.choco-page caption {
+    background-color: rgb(31, 15, 2);
+}
+
+.choco-page th {
+    background-color: rgb(59, 21, 6);
+}
+
+.choco-page td {
+    background-color: rgb(75, 31, 5);
+}
+
+.choco-page table, 
+.choco-page caption, 
+.choco-page th, 
+.choco-page td {
+    transition: background-color 0.3s ease;
+}
+
+.choco-page table tr:hover {
+    background-color: rgba(233, 126, 126, 0.2);
+}
+
+.poire-page table, 
+.poire-page caption, 
+.poire-page th, 
+.poire-page td {
+    border: 2px solid rgb(0, 0, 0); 
+    border-collapse: collapse;
+}
+
+.poire-page caption, 
+.poire-page th, 
+.poire-page td {
+    padding: 8px;
+}
+
+.poire-page caption {
+    background-color: rgb(66, 65, 16);
+}
+
+.poire-page th {
+    background-color: rgb(88, 87, 24);
+}
+
+.poire-page td {
+    background-color: rgb(148, 146, 13);
+}
+
+.poire-page table, 
+.poire-page caption, 
+.poire-page th, 
+.poire-page td {
+    transition: background-color 0.3s ease;
+}
+
+.poire-page table tr:hover {
+    background-color: rgba(233, 126, 126, 0.2);
+}
+
+
+
+
+nav {
+    background-color: #ffffff; 
+    padding: 10px 0; 
+    text-align: center; 
+}
+
+
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+nav li {
+    display: inline; 
+    margin: 0 15px; 
+}
+
+nav a {
+    color: #000000; 
+    text-decoration: none; 
+    font-size: 1.2rem; 
+    transition: color 0.3s ease; 
+}
+
+
+.titre_recette {
+    font-size: 1.5rem; 
+}
+.titre_recette img {
+    width: 200px;  
+    height: 200px; 
+    object-fit: cover; 
+    margin: 10px; 
+    box-shadow: 0 8px 20px rgba(226, 118, 248, 0.7); 
+    border: 2px solid #fabfeb;
+    display: inline-block;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px; 
+}
+
+
+header nav ul li a {
+    text-decoration: none; 
+    color: black; 
+    padding: 12px 25px; 
+    display: inline-block; 
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 6px; 
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+
+header nav ul li a:hover {
+    background-color: #c3b2d3;
+    color: #333; 
+}
+
+ 
+* {
+    box-sizing: border-box;
+  }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.titre_salee img {
+    width: 200px;  
+    height: 200px; 
+    object-fit: cover; 
+    margin: 10px; 
+    box-shadow: 0 8px 20px rgba(118, 248, 129, 0.7); 
+    border: 2px solid #cbeca5;
+    display: inline-block;
+}
+
+.titre_vegetarien img {
+    width: 200px;  
+    height: 200px; 
+    object-fit: cover; 
+    margin: 10px; 
+    box-shadow: 0 8px 20px rgba(165, 52, 52, 0.7); 
+    border: 2px solid #7c1f1f;
+    display: inline-block;
+}
+.bavarois img {
+    width: 200px;  
+    height: 200px; 
+    object-fit: cover; 
+    margin: 10px; 
+    box-shadow: 0 8px 20px rgba(235, 101, 201, 0.7); 
+    border: 2px solid #f57aad;
+    display: inline-block;
+}
+
+table, caption, th, td {
+
+    border: 2px solid rgb(85, 25, 70);
+      border-collapse: collapse;
+    
+    }
+    caption, th, td {
+    
+    padding: 8px;
+    
+    }
+    
+    caption {
+    
+    background-color: rgb(44, 24, 41);
+    
+    }
+    
+    th {
+    
+    background-color: rgb(83, 53, 82);
+    
+    }
+    
+    td {
+    
+    background-color: rgb(141, 99, 122);
+    
+    }
+
+.montxt p {
+    text-align: right;
+}
+
+
+.tableau td, th{
+    text-align: center;
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); }
+
+#ingredientImage {
+    width: 400px; 
+    height: auto; 
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+ 
+.about {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #b891a9;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about h1 {
+    color: #694567;
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+
+.contact {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #e9b7d2;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+    text-align: center;
+    color: #694567;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact label {
+    font-size: 1rem;
+    color: #694567;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px;
+    background-color: #694567;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #563347;
+}
+
+body {
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
+  
+  body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  header.dark-mode nav ul li a {
+    color: #ffffff;
+  }
+  
+  footer.dark-mode {
+    color: #ffffff;
+  }
+  
