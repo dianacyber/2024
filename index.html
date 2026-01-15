@@ -12,9 +12,9 @@
   <header>
     <nav>
       <ul>
-        <li><a href="/siteweb/index.html" target="_blank">Accueil</a></li>
-        <li><a href="/siteweb/recette.html" target="_blank">Recettes</a></li>
-        <li><a href="/siteweb/propos.html" target="_blank"> A propos</a></li>
+        <li><a href="../siteweb/index.html" target="_blank">Accueil</a></li>
+        <li><a href="../siteweb/recette.html" target="_blank">Recettes</a></li>
+        <li><a href="../siteweb/propos.html" target="_blank"> A propos</a></li>
         <button id="toggleDarkMode">Mode sombre</button>
 
       </ul>
@@ -53,26 +53,26 @@
 
     <div class="imagea">
       <a href="https://www.francetvinfo.fr/culture/cuisine-et-gastronomie/" title="Pruneau France TV">
-        <img alt="France TV" src="/siteweb/image/info.png" />
+        <img alt="France TV" src="../siteweb/image/info.png" />
       </a>
 
       <a href="https://madame.lefigaro.fr/cuisine/actu-cuisine" title="Figaro Actu">
-        <img alt="Figaro" src="/siteweb/image/figaro.png" />
+        <img alt="Figaro" src="../siteweb/image/figaro.png" />
       </a>
 
       <a href="https://www.ouest-france.fr/le-mag/cuisine/" title="Ouest France">
-        <img alt="Ouest" src="/siteweb/image/of.jpg" />
+        <img alt="Ouest" src="../siteweb/image/of.jpg" />
       </a>
 
       <a href="https://www.stars-actu.fr/2024/10/la-meilleure-cuisine-regionale-du-8-octobre-le-sommaire-qui-remportera-le-duel-ce-soir/"
         title="Stars">
-        <img alt="Star" src="/siteweb/image/star.png" />
+        <img alt="Star" src="../siteweb/image/star.png" />
       </a>
     </div>
 
     <div class="anniversaire">
       <p>Cliquez sur les ingrédients pour réaliser un gâteau au chocolat en un clic :</p>
-      <img id="ingredientImage" src="/siteweb/image/ingredient.jpg" alt="Ingrédient" />
+      <img id="ingredientImage" src="../siteweb/image/ingredient.jpg" alt="Ingrédient" />
     </div>
 
   </div>
@@ -87,7 +87,7 @@
     ingredientImage.addEventListener('click', function () {
       ingredientImage.style.opacity = 0;
       setTimeout(function () {
-        ingredientImage.src = "/siteweb/image/gateau-tout-fait.jpg"; 
+        ingredientImage.src = "../siteweb/image/gateau-tout-fait.jpg"; 
         ingredientImage.style.opacity = 1;
       }, 500); 
     });

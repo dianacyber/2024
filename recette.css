@@ -107,7 +107,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/siteweb/image/fond.jpg') no-repeat center center/cover; 
+    background: url('../siteweb/image/fond.jpg') no-repeat center center/cover; 
     z-index: -1; 
     filter: blur(8px); 
     opacity: 0.7; 
@@ -120,7 +120,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/siteweb/image/framboisefond.webp') no-repeat center center/cover; 
+    background: url('../siteweb/image/framboisefond.webp') no-repeat center center/cover; 
     z-index: -1; 
     filter: blur(8px); 
     opacity: 0.7; 
@@ -132,7 +132,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/siteweb/image/fraisefon.jpg') no-repeat center center/cover; 
+    background: url('../siteweb/image/fraisefon.jpg') no-repeat center center/cover; 
     z-index: -1;
     filter: blur(8px); 
     opacity: 0.7; 
@@ -144,7 +144,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/siteweb/image/manguefond.jpg') no-repeat center center/cover; 
+    background: url('../siteweb/image/manguefond.jpg') no-repeat center center/cover; 
     z-index: -1; 
     filter: blur(8px); 
     opacity: 0.7;
@@ -156,7 +156,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/siteweb/image/tartefond.webp') no-repeat center center/cover; 
+    background: url('../siteweb/image/tartefond.webp') no-repeat center center/cover; 
     z-index: -1; 
     filter: blur(8px); 
     opacity: 0.7;
@@ -168,7 +168,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/siteweb/image/poirefond.jpg') no-repeat center center/cover; 
+    background: url('../siteweb/image/poirefond.jpg') no-repeat center center/cover; 
     z-index: -1; 
     filter: blur(8px);
     opacity: 0.7;
@@ -180,7 +180,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/siteweb/image/pommefond.webp') no-repeat center center/cover; 
+    background: url('../siteweb/image/pommefond.webp') no-repeat center center/cover; 
     z-index: -1; 
     filter: blur(8px); 
     opacity: 0.7;
@@ -192,7 +192,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/siteweb/image/chocofond.jpg') no-repeat center center/cover; 
+    background: url('../siteweb/image/chocofond.jpg') no-repeat center center/cover; 
     z-index: -1;
     filter: blur(8px); 
     opacity: 0.7;
